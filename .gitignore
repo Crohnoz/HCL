@@ -1,0 +1,45 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.tmp
+~$*
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# CAD temporary and autosave files
+*.bak
+*.autosave
+*.f3d.lock
+*.FCStd1
+*.step~
+*.stl~
+
+# Electronics build outputs
+.pio/
+build/
+dist/
+
+# Sensitive or regulated working data
+secrets/
+private/
+patient-data/
+clinical/raw-identifiable-data/
+
+# Large generated outputs
+renders/
+exports/
+*.mp4
+*.zip
+
+# Keep folder placeholders
+!.gitkeep
