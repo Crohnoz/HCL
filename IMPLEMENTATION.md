@@ -1,22 +1,28 @@
-# Implementación
+# Implementation Guide
 
-Copiar el contenido de este paquete en la raíz de `HCL`, sobre la rama:
+This file contains package-application instructions only.
+
+Canonical governance is defined in:
+
+`docs/governance/GOV-001_DOCUMENT_CODING_STANDARD.md`
+
+## Current branch workflow
+
+Apply changes on:
 
 `feature/project-foundation`
 
-Luego:
+Then:
 
 ```bash
 git status
 git add .
-git commit -m "docs: establish HS-001 product definition"
-git push -u origin feature/project-foundation
+git commit -m "docs: address PR-001 governance review findings"
+git push
 ```
 
-Abrir un PR:
+The pull request shall target:
 
 `feature/project-foundation` → `develop`
 
-Título:
-
-`docs: establish HS-001 medical device product definition`
+Do not merge this feature branch directly into `main`.
