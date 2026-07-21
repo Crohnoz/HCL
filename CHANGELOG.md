@@ -1,36 +1,36 @@
 # Changelog
 
-## [0.2.1] - 2026-07-21
+## [0.4.0] - 2026-07-21
 
-### Fixed
+### Added
 
-- Defined English as the primary language for controlled records.
-- Added a controlled translation strategy for Spanish records.
-- Established GOV-001 as the canonical repository-governance source.
-- Cross-referenced contributor and implementation documents to GOV-001.
-- Populated the initial requirements traceability matrix.
-- Clarified that feature pull requests target `develop`, not `main`.
+- DES-004 Donor Chair Measurement Protocol.
+- DES-005 Anthropometric Design Envelope.
+- DES-006 Concept Comparison Matrix.
+- HS-P0-2026-001 Dry Geometry Prototype Plan.
+- TST-ERG-000 Dry Mock-up Observation Form.
+
+### Changed
+
+- DR-ACT-005, DR-ACT-006 and DR-ACT-007 marked completed.
+- Project advanced to physical definition and dry concept exploration.
+
+## [0.3.0] - 2026-07-21
+
+### Added
+
+- DR-001 Initial Product Definition Design Review.
+- DR-001 action register.
+- Repository baseline decision.
 
 ## [0.2.0] - 2026-07-21
 
 ### Added
 
-- PRD-001 Product Requirements Document.
-- DES-001 User Needs.
-- DES-002 System Requirements.
-- GOV-001 Document Coding Standard.
-- RMF-002 Preliminary Hazard Analysis.
-- Initial traceability matrix.
-
-### Changed
-
-- HydroSeat assigned product code `HS-001`.
-- HCL established as Crohnoz Labs Hardware Core Lab program.
-- Project advanced from repository foundation to formal product definition.
+- Product requirements, user needs, system requirements and preliminary hazards.
 
 ## [0.1.0] - 2026-07-21
 
 ### Added
 
-- Repository foundation.
-- Medical-device master roadmap.
+- Repository foundation and master roadmap.

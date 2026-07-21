@@ -1,54 +1,39 @@
-# HydroSeat — Estado actual
+# HydroSeat — Current Status
 
-**Organización:** Crohnoz Labs  
-**Programa:** HCL — Hardware Core Lab  
-**Producto:** HS-001 HydroSeat  
-**Fecha:** 2026-07-21  
+**Organization:** Crohnoz Labs  
+**Program:** HCL — Hardware Core Lab  
+**Product:** HS-001 HydroSeat  
 **Baseline:** BL-MED-00  
-**Gate activo:** G1 — estrategia regulatoria y definición de producto  
-**Rama:** feature/project-foundation  
+**Active phase:** G2 physical definition and concept exploration  
 
-## Completado
+## Completed
 
-- Repositorio inicializado.
-- Roadmap maestro incorporado.
-- Ruta de dispositivo médico aprobada.
-- Código de producto `HS-001` definido.
-- PRD preliminar elaborado.
-- Necesidades de usuario elaboradas.
-- Requisitos de sistema preliminares elaborados.
-- Análisis preliminar de peligros abierto.
-- Convención documental establecida.
+- Repository foundation.
+- Initial product definition.
+- DR-001 Conditional Go.
+- Donor-chair measurement protocol.
+- Anthropometric design-envelope plan.
+- Concept-comparison matrix.
+- Dry geometry prototype plan.
 
-## En curso
+## Immediate physical work
 
-- Revisión del PRD.
-- Definición clínica de indicaciones y contraindicaciones.
-- Clasificación regulatoria chilena.
-- Matriz de trazabilidad.
+1. Measure and photograph the donor chair.
+2. Measure the founder's seated anthropometry.
+3. Create full-size cardboard opening templates.
+4. Compare P0-A, P0-B and P0-C geometries.
+5. Build a non-water basin-volume proxy.
+6. Record findings before opening Fusion.
 
-## Próxima acción
+## Still prohibited
 
-Revisar conceptualmente:
+- cutting the chair before measurement completion;
+- human wet-use tests;
+- energized prototype use;
+- final medical claims;
+- final material selection;
+- sale or clinical use.
 
-1. `docs/product/PRD-001_HYDROSEAT_PRODUCT_REQUIREMENTS.md`
-2. `docs/design/DES-001_USER_NEEDS.md`
-3. `docs/design/DES-002_SYSTEM_REQUIREMENTS.md`
-4. `risk-management-file/RMF-002_PRELIMINARY_HAZARD_ANALYSIS.md`
+## Next decision
 
-Después abrir el primer Design Review.
-
-## Bloqueos
-
-- revisión clínica externa;
-- revisión regulatoria externa;
-- parámetros clínicos de duración, temperatura y flujo;
-- aplicabilidad normativa formal.
-
-## Todavía no autorizado
-
-- CAD congelado;
-- pruebas húmedas humanas;
-- integración eléctrica;
-- claims terapéuticos públicos;
-- venta o uso clínico.
+Select the initial seat architecture and opening geometry for CAD exploration.
