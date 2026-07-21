@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.1] - 2026-07-21
+
+### Fixed
+
+- Defined English as the primary language for controlled records.
+- Added a controlled translation strategy for Spanish records.
+- Established GOV-001 as the canonical repository-governance source.
+- Cross-referenced contributor and implementation documents to GOV-001.
+- Populated the initial requirements traceability matrix.
+- Clarified that feature pull requests target `develop`, not `main`.
+
 ## [0.2.0] - 2026-07-21
 
 ### Added

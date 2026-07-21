@@ -1,17 +1,17 @@
-user_need_id,system_requirement_id,risk_id,verification_id,validation_id,status,notes
-UN-001,SYS-005,,,,Draft,
-UN-002,SYS-008,,,,Draft,
-UN-003,SYS-012;SYS-013;SYS-014,,,,Draft,
-UN-004,SYS-015;SYS-016,,,,Draft,
-UN-005,SYS-001;SYS-002;SYS-006,,,,Draft,
-UN-006,SYS-007,,,,Draft,
-UN-007,SYS-004,,,,Draft,
-UN-008,SYS-009,,,,Draft,
-UN-009,SYS-010,,,,Draft,
-UN-010,SYS-011;SYS-020;SYS-021;SYS-022;SYS-023;SYS-024;SYS-025,,,,Draft,
-UN-011,SYS-027;SYS-033;SYS-034,,,,Draft,
-UN-012,SYS-017;SYS-018;SYS-019,,,,Draft,
-UN-014,SYS-028,,,,Draft,
-UN-015,SYS-026,,,,Draft,
-UN-016,SYS-003;SYS-004,,,,Draft,
-UN-020,SYS-029;SYS-030;SYS-031;SYS-032,,,,Draft,
+user_need_id,system_requirement_id,hazard_id,risk_control_id,verification_id,validation_id,status,notes
+UN-001,SYS-005,HAZ-013,,TST-ERG-001,,Draft,Perianal pressure unloading
+UN-002,SYS-008,,,TST-HYD-001,,Draft,Partial immersion geometry
+UN-003,SYS-012;SYS-013;SYS-014,HAZ-001,,TST-THM-001;TST-THM-002,,Draft,Thermal regulation and single-fault protection
+UN-004,SYS-015;SYS-016,HAZ-005;HAZ-006,,TST-HYD-002;TST-HYD-003,,Draft,"Hydrojet flow, pressure and suction"
+UN-005,SYS-001;SYS-002;SYS-006,HAZ-003;HAZ-013,,TST-MEC-001;TST-ERG-002,,Draft,Large-user structural and ergonomic support
+UN-006,SYS-007,HAZ-013,,TST-ERG-003,,Draft,Small-user adaptation
+UN-007,SYS-004,HAZ-004;HAZ-012,,TST-MEC-002;TST-USR-001,,Draft,Transfer and stability
+UN-008,SYS-009,HAZ-010,,TST-USR-002,,Draft,Basin removal
+UN-009,SYS-010,HAZ-011,,TST-HYD-004,,Draft,Controlled drainage
+UN-010,SYS-011;SYS-020;SYS-021;SYS-022;SYS-023;SYS-024;SYS-025,HAZ-002;HAZ-007;HAZ-008;HAZ-009;HAZ-011;HAZ-017;HAZ-018,,TST-HYG-001;TST-HYG-002;TST-ELE-001,,Draft,"Hygiene, contamination, materials and wet/dry separation"
+UN-011,SYS-027;SYS-033;SYS-034,HAZ-014;HAZ-015;HAZ-017;HAZ-018;HAZ-019,,TST-USR-003,,Draft,Safety information and claims
+UN-012,SYS-017;SYS-018;SYS-019,HAZ-001;HAZ-002;HAZ-016,,TST-USR-004;TST-ELE-002,,Draft,Emergency stop and safe restart
+UN-014,SYS-028,,,TST-USR-005,,Draft,Drying accessory workflow
+UN-015,SYS-026,HAZ-010,,TST-USR-006,,Draft,Correct basin installation
+UN-016,SYS-003;SYS-004,HAZ-004;HAZ-010,,TST-MEC-002;TST-MEC-003,,Draft,Repositioning and basin retention
+UN-020,SYS-029;SYS-030;SYS-031;SYS-032,HAZ-020,,TST-QMS-001,,Draft,Configuration and traceability

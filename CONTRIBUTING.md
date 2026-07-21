@@ -1,20 +1,26 @@
 # Contributing
 
-## Flujo de ramas
+Repository governance is defined by:
 
-- `main`: baselines aprobadas y liberaciones documentales.
-- `develop`: integración.
-- `feature/*`: trabajo nuevo.
-- `fix/*`: correcciones.
-- `docs/*`: documentación.
-- `regulatory/*`: trabajo regulatorio.
-- `risk/*`: gestión de riesgos.
+`docs/governance/GOV-001_DOCUMENT_CODING_STANDARD.md`
 
-No trabajar directamente en `main`.
+This file is a contributor-facing summary only.
+
+## Branch flow
+
+```text
+feature/* or fix/*
+        ↓
+develop
+        ↓
+main
+```
+
+Do not work directly on `main`.
 
 ## Commits
 
-Se usarán Conventional Commits:
+Use Conventional Commits where practical:
 
 - `docs:`
 - `feat:`
@@ -28,12 +34,15 @@ Se usarán Conventional Commits:
 
 ## Pull requests
 
-Cada PR debe indicar:
+Feature branches shall target `develop`.
 
-- objetivo;
-- requisitos afectados;
-- riesgos afectados;
-- documentos modificados;
-- pruebas;
-- revisores requeridos;
-- impacto regulatorio.
+Every PR shall identify:
+
+- objective;
+- requirements affected;
+- risks affected;
+- documents modified;
+- review or evidence performed;
+- regulatory impact.
+
+See the canonical governance standard for full requirements.

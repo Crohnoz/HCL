@@ -1,20 +1,24 @@
-## Objetivo
+## Objective
 
-## Cambios
+## Controlled documents changed
 
-## Requisitos afectados
+## Requirements affected
 
-## Riesgos afectados
+## Risks affected
 
-## Evidencia y pruebas
+## Verification, review or evidence
 
-## Impacto regulatorio
+## Regulatory impact
+
+## Baseline impact
 
 ## Checklist
 
-- [ ] Leí `ROADMAP_MASTER.md` y `STATUS.md`.
-- [ ] Actualicé `CHANGELOG.md`.
-- [ ] Documenté decisiones.
-- [ ] Revisé riesgos.
-- [ ] No incluí datos clínicos identificables.
-- [ ] No trabajé directamente en `main`.
+- [ ] I read `ROADMAP_MASTER.md` and `STATUS.md`.
+- [ ] I followed `docs/governance/GOV-001_DOCUMENT_CODING_STANDARD.md`.
+- [ ] The PR targets `develop`, unless this is an approved `develop` → `main` baseline PR.
+- [ ] I updated `CHANGELOG.md` when required.
+- [ ] I documented relevant decisions.
+- [ ] I assessed risk impact.
+- [ ] I did not include identifiable clinical data.
+- [ ] Controlled-document language follows the approved language policy.
